@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Menu v4</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <script defer src="index.js"></script>
+        <link rel="icon" href="assets/icon.ico">
+        <script src="https://kit.fontawesome.com/13a0481598.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="logo">
+                <img src="assets/logoo.jpg" alt="Logo">
+            </a>
+        <div class="esqb">
+            <div class="buscador">
+                <input class="search" type="text" placeholder="Buscar en la web">
+                <a href="#" class="searchb">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </div>
+            <button class="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        </header>
+        <nav>
+            <div class="searchi">
+                <input type="text" class="search2" placeholder="Buscar en la web">
+            </div>
+            <ul class="menu-horizontal" class="menu-horizontal_visible">
+                <li>
+                    <p>Cursos <i class="fa-solid fa-angle-down"></i></p>
+                    <ul class="menu-vertical" id="modif-1">
+                        <li><a href="#">Programacion web</a></li>
+                        <li><a href="#">Desarollo web</a></li>
+                        <li><a href="#">Sistema operativo</a></li>
+                        <li><a href="#">Base de datos</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Horarios <i class="fa-solid fa-angle-down"></i></p>
+                    <ul class="menu-vertical" id="modif-2">
+                        <li><a href="assets/lunes.jpg">Lunes</a></li>
+                        <li><a href="assets/martes.jpg">Martes</a></li>
+                        <li><a href="assets/miercoles.jpg">Miercoles</a></li>
+                        <li><a href="assets/jueves.jpg">Jueves</a></li>
+                        <li><a href="assets/viernes.jpg">Viernes</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Docentes <i class="fa-solid fa-angle-down"></i></p>
+                    <ul class="menu-vertical" id="modif-3">
+                        <li><a href="#">Pias</a></li>
+                        <li><a href="#">Borba</a></li>
+                        <li><a href="#">Martinez</a></li>
+                        <li><a href="#">Nieves</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <section class="form-register">
+            <h4>CONTACTO</h4>
+            <form autocomplete="off">
+            <input class="control" type="text" name="nombre" id="nombre" placeholder="Nombre">
+            <input class="control" type="text" name="grupo" id="grupo" placeholder="Grupo">
+            <input class="control" type="email" name="email" id="email" placeholder="Email">
+            <ul class="botons">
+                <li><button type="reset" class="cancel">
+                    <i class="fa-solid fa-x"></i>
+                </button> 
+                </li>
+                <li><button type="submit" class="arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </li>
+            </ul>
+            </form>
+        </section>
+        <footer>
+            <p id="pie">
+                &copy; Alejandro Paris 3BX 2022
+            </p>
+        </footer>
+    </body>
+</html>
